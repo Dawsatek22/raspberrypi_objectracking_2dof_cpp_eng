@@ -1,2 +1,2 @@
-# raspberrypi_objectracking_2dof_cpp-
+# raspberrypi_objectracking_2dof_cpp_eng
 The second version of a Raspberry Pi c++ object tracking robot(link is here: https://github.com/Dawsatek22/raspberrypi_objectracking_1dof_cpp). This version  can now use the x and y direction.The tutorial videos are posted 1 month earlier on c/c++ exclusive on : https://vanillo.tv/v/18WrPnBuGD-. first before it is posted on youtube in 26 august: https://youtu.be/UmCWkWiB-DA.It is advised to read the eng_list.txt first before following the tutorial video instructions.
