@@ -1,0 +1,65 @@
+playlist tutorial video:
+00:05: Warnings and summaries
+00:10 assembeling the board:
+03:14 add the camera module
+03:51 add the servo board
+05:21 add the servos
+15:31 Attach camera
+16:56 Attach wires
+18:58 turn on the power
+19:34 test the robot
+22:52  Finishing the robot
+
+Warnings and summaries:
+
+This is a english list for the Raspberry Pi 2 degrees of freedom tracking robot in c++ language,Most of the cad parts used are also possible(and more)at: https://openroboticplatform.com/ .if you are interested,Links for  tools and materials are more for reference than a nessecary link,
+You can find the required tools else if you want,
+The tutorial video instructions is explained in text so take that in mind,
+If there is something wrong please reply if possible.
+
+Required software:
+
+opencv c++ version for the Raspberry Pi ( https://opencv.org/get-started/?utm_source=opcv&utm_medium=home ),lccv for Raspberry Pi camera ( https://github.com/kbarni/LCCV.git ),
+PIPCA9685 software for the Raspberry Pi ( https://github.com/barulicm/PiPCA9685.git ),
+vnc viewer for pc/laptop ( https://www.realvnc.com/en/connect/download/viewer/?lai_sr=0-4&lai_sl=l&lai_p=1&lai_na=488119 ),
+vscode or other editor for c++ and cmake and Raspberry Pi (optional).
+Recomended skills:
+c/c++ programming,ssh into a Raspberry Pi with vnc viewer,
+using opencv in c++,Aquiring 3d printed parts or making parts,
+screwing parts together.Working with 5V power supplies.
+
+1x pc/laptop
+1x wifi access
+1x micro sd card with Raspberry Pi os installed(newest recommended).
+2x MG9685R servo motor ( https://www.google.com/aclk?sa=L&ai=DChsSEwjOpNCx0_WUAxW_2kQHHZCmF3cYACICCAEQKBoCZWY&co=1&ase=2&gclid=Cj0KCQjwrZTRBhDSARIsAHidYffELMxkmnDE0JABOn3ErcR1-FcVfcPNxclglE4ka95okaLcqWub9ecaAusnEALw_wcB&cce=2&category=acrcp_v1_32&sig=AOD64_1CiRqCZi4dvGij6UER7pnWSG7WUw&ctype=5&q=&nis=4&ved=2ahUKEwipjcqx0_WUAxVxgf0HHbCgOTkQ9aACKAB6BAgKEH0&adurl= ).
+1x Raspberry Pi 4 power supply ( https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-45w-usb-c-power-supply-wit-eu-20344?_gl=1*12ps7eb*_up*MQ..*_gs*MQ..&gclid=CjwKCAiAzPy8BhBoEiwAbnM9Ow7ROOUDxP7oLn6GxWahoVa5RTWdGsV1wpKVYhZJ-sgs8RBNt1Ai_RoCTMMQAvD_BwE ).
+1x Raspberry Pi 4 4gb or more board ( https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-4-model-b-4gb-4268?_gl=1*bc9wbe*_up*MQ..*_gs*MQ..&gclid=CjwKCAiAzPy8BhBoEiwAbnM9Ow7ROOUDxP7oLn6GxWahoVa5RTWdGsV1wpKVYhZJ-sgs8RBNt1Ai_RoCTMMQAvD_BwE ).
+1x Raspberry Pi camera module 2 ( https://www.kiwi-electronics.com/nl/raspberry-pi-boards-behuizingen-uitbreidingen-en-accessoires-59/raspberry-pi-camera-accessoires-133/raspberry-pi-camera-module-2-8mp-2359?sort=p.price&order=DESC&_gl=1*1of2sj8*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwrZTRBhDSARIsAHidYffavMRikxQnFvU7oxToOkzNCcFuesgtU1_2adqnptPq7jQGKajFbkUaAvldEALw_wcB&gbraid=0AAAAADuMvucSHW0I8aCGKIBlU8Q1tIGoA ).
+1x Raspberry Pi Camera and Display Cable - 15 pin FFC flex - 30cm (https://www.tinytronics.nl/en/cables-and-connectors/cables-and-adapters/ffc/raspberry-pi-camera-cable-15-pin-fpc-flex-30cm).
+1x Servo Driver HAT for Raspberry Pi - 16ch - 12-bit - I2C or PCA9685 board as alernative  ( https://www.kiwi-electronics.com/en/servo-driver-hat-for-raspberry-pi-16ch-12-bit-i2c-10373?country=NL ).
+6x 20mm m/f dupont wires ( https://www.amazon.nl/Dupont-Jumper-Arduino-Raspberry-projects/dp/B09KGRM98K/ref=asc_df_B09KGRM98K?mcid=dfec802fdd6735938a66728c46ec7c7b&tag=nlshogostdde-21&linkCode=df0&hvadid=710149408226&hvpos=&hvnetw=g&hvrand=8841745687586544422&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9103357&hvtargid=pla-1692860532420&hvocijid=8841745687586544422-B09KGRM98K-&hvexpln=0&gad_source=1&th=1 )
+1x yellow object for testing like a dc tt motor wheel for example( https://www.tinytronics.nl/en/mechanics-and-actuators/parts/wheels/spare-wheel-auto-kit-diy )
+1x m2.5 allen wrench
+1x m3 allen wrench
+1x m4 allen wr
+
+Screws and bolts spacer:
+4x m3x14mm allen screws
+4x m4 nuts
+2x m3x6mm allen screws
+
+2x m3x12mm allen screws
+10x m3x16mm allen screws
+10 m3 nuts
+4x m2.5x6mm allen screws
+2x m2.5x10x6 standoff brass spacer
+2x m2x8mm allen screws2x m2 nuts
+
+Cad parts(pla recomended):
+1x dt22-225-d22_cam_plate_100x160mm.stl
+1x dt22-226-cam_2-sideways.stl
+1x dt22-241-mg996r_bottomv3_ext1.stl
+1x dt22-241-orp_extender_bend_v3.2.stl
+1x dt22-241-orp_extender60mm_mg996r_v3.stl
+1x dt22-241-mg996r_bottom_v3.stl
+1x Radek_Janecka-172-RaspberryPi_holder.stl
